@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+		<bean id="user" class="com.instacart.model.User"></bean>
+   	<bean id="admin" class="com.instacart.model.Admin"></bean>
+   	<bean id="userDao" class="com.instacart.dao.UserDao"></bean>
+   	<bean id="product" class="com.instacart.model.Product"></bean>
+   	<bean id="adminDao" class="com.instacart.dao.AdminDao"></bean>
+   	<bean id="productDao" class="com.instacart.dao.ProductDao"></bean>
+   	<bean id="cart" class="com.instacart.model.Cart"></bean>
+   	<bean id="cartDao" class="com.instacart.dao.CartDao"></bean>
+		
+   
+   	
+</beans>
